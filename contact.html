@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Showroom</title>
+<link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+  <!-- Header hai  -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo"><span>Showroom</span></a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="blog.html">Lookbook</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <a href="shop.html" class="btn-primary">Shop Now</a>
+          <button id="mobileMenuBtn" class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile ke liye  Menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <div class="mobile-menu-content">
+      <button id="closeMenu" class="close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="shop.html" class="btn-primary">Shop Now</a>
+      </nav>
+    </div>
+  </div>
+  <div id="overlay" class="overlay"></div>
+
+  <!-- Her o   -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Get in Touch</h1>
+        <p>Hum aapki madad ke liye hamesha taiyar hai. Kisi bhi sawal ke liye contact karein.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <div class="content-grid">
+        <!-- Contact Form -->
+        <div class="card">
+          <h2>Message Bhejein</h2>
+          <p class="card-subtitle">24 ghante ke andar reply karenge</p>
+          <form onsubmit="alert('Form submitted (demo)'); return false;">
+            <div class="form-group">
+              <label>Aapka Naam</label>
+              <input type="text" required placeholder="Naam likhe">
+            </div>
+            <div class="form-group">
+              <label>Email / Phone Number</label>
+              <input type="text" required placeholder="Email ya phone number">
+            </div>
+            <div class="form-group">
+              <label>Aapka Message</label>
+              <textarea required rows="4" placeholder="Apna message likhe"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
+              </svg>
+              Message Bhejein
+            </button>
+          </form>
+        </div>
+
+        <!-- Store Info -->
+        <div>
+          <!-- Visit Info -->
+          <div class="card">
+            <h2>Showroom Visit</h2>
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3>Location</h3>
+                  <p>Main Road, City Center</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3>Open Hours</h3>
+                  <p>Mon–Sun: 10:00 AM – 8:00 PM</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3>Contact Numbers</h3>
+                  <p>Phone: +91-98765-43210</p>
+                  <p>WhatsApp: +91-98765-43210</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="card" style="margin-top: 2rem;">
+            <h2>Location Map</h2>
+            <div class="map-container">
+              <iframe loading="lazy" src="https://maps.google.com/maps?q=delhi&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+          </div>
+
+          <!-- Store Photos -->
+          <div class="card" style="margin-top: 2rem;">
+            <h2>Showroom Photos</h2>
+            <div class="photo-grid">
+              <img src="./images/photo9.jpeg" alt="Store Interior">
+              <img src="./images/contact_ph_1.jpeg" alt="Store Display">
+              <img src="./images/contact_ph_2.jpeg" alt="Store Front">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h5>Showroom</h5>
+          <p>Premium clothing showroom — quality & style ke liye vishwas kiya hua naam.</p>
+        </div>
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <p>📍 Main Road, City</p>
+          <p>☎️ +91-98765-43210</p>
+          <p>✉️ info@showroom.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 Showroom. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+ <script src="./js/contact.js"></script>
+</body>
+</html>

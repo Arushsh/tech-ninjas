@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product — Showroom</title>
+ <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <a href="index.html" class="logo"><span>Showroom</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="shop.html" class="btn-primary">Shop Now</a>
+        <button id="mobileMenuBtn" class="menu-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <div class="mobile-menu-content">
+      <button id="closeMenu" class="close-btn">
+        <svg viewBox="0 0 24 24" style="width:1.5rem;height:1.5rem">
+          <path d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html" class="btn-primary">Shop Now</a>
+      </nav>
+    </div>
+  </div>
+  <div id="overlay" class="overlay"></div>
+
+  <main class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <a href="shop.html">Shop</a>
+      <span>/</span>
+      <span class="current">Premium Cotton Shirt</span>
+    </nav>
+
+    <div class="product-grid">
+      <!-- Product Images -->
+      <div class="product-images">
+        <div class="main-image">
+          <img src="./images/product_ph_1.jpeg" alt="Premium Cotton Shirt - Main View">
+        </div>
+        <div class="thumbnail-grid">
+          <button class="thumbnail">
+            <img src="./images/product_ph_1.jpeg" alt="Front View">
+          </button>
+          <button class="thumbnail">
+            <img src="./images/product_ph_2.jpeg" alt="Back View">
+          </button>
+          <button class="thumbnail">
+            <img src="./images/product_ph_3.jpeg" alt="Detail View">
+          </button>
+          <button class="thumbnail">
+            <img src="./images/photo5.jpeg" alt="Styled View">
+          </button>
+        </div>
+      </div>
+
+      <!-- Product Info -->
+      <div class="product-info">
+        <div class="product-header">
+          <h1>Premium Cotton Shirt</h1>
+          <div class="price-section">
+            <p class="current-price">₹1,499</p>
+            <p class="old-price">₹1,999</p>
+            <span class="discount-badge">25% Off</span>
+          </div>
+        </div>
+
+        <div class="product-section">
+          <h2>Product Features</h2>
+          <ul class="feature-list">
+            <li>
+              <svg viewBox="0 0 24 24">
+                <path d="M5 13l4 4L19 7"/>
+              </svg>
+              Premium cotton fabric
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24">
+                <path d="M5 13l4 4L19 7"/>
+              </svg>
+              Comfort fit design
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24">
+                <path d="M5 13l4 4L19 7"/>
+              </svg>
+              Machine washable
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24">
+                <path d="M5 13l4 4L19 7"/>
+              </svg>
+              Easy iron technology
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-section">
+          <div class="section-header">
+            <h2>Select Size</h2>
+            <button id="sizeChartBtn" class="size-guide-btn">Size Guide</button>
+          </div>
+          <div class="size-options">
+            <button class="size-btn">S</button>
+            <button class="size-btn">M</button>
+            <button class="size-btn">L</button>
+            <button class="size-btn">XL</button>
+            <button class="size-btn">XXL</button>
+          </div>
+        </div>
+
+        <div class="product-section">
+          <h2>Quantity</h2>
+          <div class="quantity-section">
+            <div class="quantity-control">
+              <button class="quantity-btn">−</button>
+              <input type="number" value="1" min="1" class="quantity-input">
+              <button class="quantity-btn">+</button>
+            </div>
+            <p class="stock-info">10 pieces available</p>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button class="btn-cart">Add to Cart</button>
+          <button class="btn-wishlist">Add to Wishlist</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details Tabs -->
+    <div class="tabs">
+      <div class="tab-nav">
+        <button class="tab-btn active">Description</button>
+        <button class="tab-btn">Reviews (12)</button>
+        <button class="tab-btn">Shipping</button>
+      </div>
+      <div class="tab-content">
+        <div class="description">
+          <p>Experience ultimate comfort with our Premium Cotton Shirt. Crafted from high-quality cotton, this shirt features a modern fit that's perfect for both casual and semi-formal occasions. The breathable fabric ensures all-day comfort, while the easy-care technology makes maintenance a breeze.</p>
+          <ul>
+            <li>• 100% premium cotton fabric</li>
+            <li>• Contemporary regular fit</li>
+            <li>• Reinforced buttons</li>
+            <li>• Available in multiple sizes</li>
+            <li>• Easy care instructions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related Products -->
+    <section class="related-section">
+      <div class="section-title">
+        <h2>Related Products</h2>
+        <a href="shop.html">View All →</a>
+      </div>
+      <div class="product-grid-cards">
+        <article class="product-card">
+          <div class="product-card-image">
+            <img src="./images/photo8.jpeg" alt="Formal Trousers">
+            <div class="badge new">New</div>
+          </div>
+          <div class="product-card-body">
+            <h3>Formal Trousers</h3>
+            <p class="product-card-price">₹1,299</p>
+            <div class="card-actions">
+              <a href="product.html" class="btn-details">Details</a>
+              <button class="btn-add">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card-image">
+            <img src="./images/photo6.jpeg" alt="Floral Summer Dress">
+            <div class="badge sale">-20%</div>
+          </div>
+          <div class="product-card-body">
+            <h3>Floral Summer Dress</h3>
+            <p class="product-card-price">₹1,299 <span class="old">₹1,599</span></p>
+            <div class="card-actions">
+              <a href="product.html" class="btn-details">Details</a>
+              <button class="btn-add">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card-image">
+            <img src="./images/photo7.jpeg" alt="Kids Cotton Set">
+            <div class="badge bestseller">Best Seller</div>
+          </div>
+          <div class="product-card-body">
+            <h3>Kids Cotton Set</h3>
+            <p class="product-card-price">₹599</p>
+            <div class="card-actions">
+              <a href="product.html" class="btn-details">Details</a>
+              <button class="btn-add">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card-image">
+            <img src="./images/blog_ph_3.jpeg" alt="Women's Blazer">
+            <div class="badge premium">Premium</div>
+          </div>
+          <div class="product-card-body">
+            <h3>Women's Blazer</h3>
+            <p class="product-card-price">₹2,499</p>
+            <div class="card-actions">
+              <a href="product.html" class="btn-details">Details</a>
+              <button class="btn-add">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Size Chart Modal -->
+  <div id="sizeChartModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4>Size Chart (in cm)</h4>
+        <button id="closeSizeChart" class="modal-close">
+          <svg viewBox="0 0 24 24" style="width:1.5rem;height:1.5rem">
+            <path d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Size</th>
+            <th>Chest</th>
+            <th>Waist</th>
+            <th>Length</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>S</td>
+            <td>92</td>
+            <td>78</td>
+            <td>68</td>
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>96</td>
+            <td>82</td>
+            <td>70</td>
+          </tr>
+          <tr>
+            <td>L</td>
+            <td>100</td>
+            <td>86</td>
+            <td>72</td>
+          </tr>
+          <tr>
+            <td>XL</td>
+            <td>104</td>
+            <td>90</td>
+            <td>74</td>
+          </tr>
+          <tr>
+            <td>XXL</td>
+            <td>108</td>
+            <td>94</td>
+            <td>76</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h5>Showroom</h5>
+          <p>Premium clothing showroom — quality & style.</p>
+        </div>
+        <div class="footer-section">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h5>Contact</h5>
+          <div>
+            <p>📍 Main Road, City</p>
+            <p>☎️ +91-98765-43210</p>
+            <p>✉️ info@showroom.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 Showroom. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+ <script src="./js/product.js"></script>
+</body>
+</html>

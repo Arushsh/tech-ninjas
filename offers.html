@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Offers — Showroom</title>
+  <link rel="stylesheet" href="./css/offers.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo"><span>Showroom</span></a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="blog.html">Lookbook</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <a href="shop.html" class="btn-primary">Shop Now</a>
+          <button id="mobileMenuBtn" class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <div class="mobile-menu-content">
+      <button id="closeMenu" class="close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html" class="btn-primary">Shop Now</a>
+      </nav>
+    </div>
+  </div>
+  <div id="overlay" class="overlay"></div>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <h1>Special Offers & Deals</h1>
+      <p>Discover amazing discounts and exclusive deals on our premium collection.</p>
+    </div>
+
+    <!-- Featured Offer -->
+    <div class="featured-offer">
+      <div class="featured-grid">
+        <div class="featured-content">
+          <span class="badge">Limited Time</span>
+          <h2>Festive Season Sale</h2>
+          <p>Get up to 50% off on selected items. Don't miss out on our biggest sale of the year!</p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <svg fill="currentColor" viewBox="0 0 20 20">
+                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+              </svg>
+              <span>Buy 2 get 1 free on kids wear</span>
+            </div>
+            <div class="feature-item">
+              <svg fill="currentColor" viewBox="0 0 20 20">
+                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+              </svg>
+              <span>Extra 10% off with code: FEST10</span>
+            </div>
+          </div>
+          <a href="shop.html" class="btn-white">Shop Now</a>
+        </div>
+        <div class="featured-image">
+          <img src="./images/offers_ph_1.jpeg" alt="Festive Sale">
+        </div>
+      </div>
+    </div>
+
+    <!-- Offer Grid -->
+    <div class="offer-grid">
+      <!-- New Member Offer -->
+      <div class="offer-card">
+        <div class="offer-image">
+          <img src="./images/offers_ph_2.jpeg" alt="New Member Offer">
+          <span class="offer-badge">New Members</span>
+        </div>
+        <div class="offer-content">
+          <h3>New Member Discount</h3>
+          <p>Sign up and get ₹200 off on your first purchase of ₹1500 or more.</p>
+          <a href="contact.html" class="btn-primary">Join Now</a>
+        </div>
+      </div>
+
+      <!-- Seasonal Clearance -->
+      <div class="offer-card">
+        <div class="offer-image">
+          <img src="./images/offers_ph_3.jpeg" alt="Seasonal Clearance">
+          <span class="offer-badge">Clearance</span>
+        </div>
+        <div class="offer-content">
+          <h3>Seasonal Clearance</h3>
+          <p>Up to 70% off on last season's collection. Limited stock available.</p>
+          <a href="shop.html" class="btn-primary">View Collection</a>
+        </div>
+      </div>
+
+      <!-- Bundle Deal -->
+      <div class="offer-card">
+        <div class="offer-image">
+          <img src="./images/photo9.jpeg" alt="Bundle Deal">
+          <span class="offer-badge">Bundle</span>
+        </div>
+        <div class="offer-content">
+          <h3>Bundle & Save</h3>
+          <p>Buy any 3 items from our premium collection and save 25%.</p>
+          <a href="shop.html" class="btn-primary">Shop Bundles</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- How to Redeem -->
+    <section class="redeem-section">
+      <h2>How to Redeem Offers</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">
+            <span>1</span>
+          </div>
+          <h3>Select Products</h3>
+          <p>Browse our collection and add your favorite items to cart</p>
+        </div>
+        <div class="step">
+          <div class="step-number">
+            <span>2</span>
+          </div>
+          <h3>Apply Coupon</h3>
+          <p>Enter the coupon code at checkout to get your discount</p>
+        </div>
+        <div class="step">
+          <div class="step-number">
+            <span>3</span>
+          </div>
+          <h3>Complete Purchase</h3>
+          <p>Proceed with payment and enjoy your discounted items</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <div class="newsletter">
+      <div class="newsletter-content">
+        <h2>Get Exclusive Offers</h2>
+        <p>Subscribe to our newsletter and be the first to know about new deals and promotions.</p>
+        <form class="newsletter-form" onsubmit="alert('Subscribed!'); return false;">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h5>Showroom</h5>
+          <p>Premium clothing showroom — quality & style.</p>
+        </div>
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <p>📍 Main Road, City</p>
+          <p>☎️ +91-98765-43210</p>
+          <p>✉️ info@showroom.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 Showroom. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+ <script src="./js/offers.js"></script>
+</body>
+</html>

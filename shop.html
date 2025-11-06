@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shop — Showroom</title>
+  <link rel="stylesheet" href="./css/shop.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo"><span>Showroom</span></a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="blog.html">Lookbook</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <a href="shop.html" class="btn-primary">Shop Now</a>
+          <button id="mobileMenuBtn" class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <div class="mobile-menu-content">
+      <button id="closeMenu" class="close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html" class="btn-primary">Shop Now</a>
+      </nav>
+    </div>
+  </div>
+  <div id="overlay" class="overlay"></div>
+
+  <main class="container">
+    <div class="shop-layout">
+      <!-- Filters Sidebar -->
+      <aside class="sidebar">
+        <div class="filter-card">
+          <h3>Filters</h3>
+          <div class="filter-sections">
+            <div class="filter-section">
+              <label>Category</label>
+              <select>
+                <option>All Categories</option>
+                <option>Men's Fashion</option>
+                <option>Women's Fashion</option>
+                <option>Kids' Collection</option>
+                <option>Accessories</option>
+              </select>
+            </div>
+
+            <div class="filter-section">
+              <label>Price Range</label>
+              <div class="price-inputs">
+                <input type="number" placeholder="Min">
+                <input type="number" placeholder="Max">
+              </div>
+            </div>
+
+            <div class="filter-section">
+              <label>Size</label>
+              <div class="size-buttons">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+                <button class="size-btn">XL</button>
+                <button class="size-btn">XXL</button>
+              </div>
+            </div>
+
+            <div class="filter-apply">
+              <button class="btn-apply">Apply Filters</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Products Section -->
+      <section class="products-section">
+        <div class="products-header">
+          <h2>All Products</h2>
+          <div class="sort-controls">
+            <label>Sort by</label>
+            <select>
+              <option>Most Popular</option>
+              <option>Newest Arrivals</option>
+              <option>Price: Low to High</option>
+              <option>Price: High to Low</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product Card 1 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="./images/product_ph_2.jpeg" alt="Men's Linen Shirt">
+              <div class="product-badge">New</div>
+            </div>
+            <div class="product-content">
+              <h3>Men's Linen Shirt</h3>
+              <p class="product-price">₹999</p>
+              <p class="product-description">Premium linen, perfect for summer</p>
+              <div class="product-actions">
+                <a href="product.html" class="btn-details">Details</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 2 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="./images/photo6.jpeg" alt="Floral Summer Dress">
+              <div class="product-badge badge-sale">-20%</div>
+            </div>
+            <div class="product-content">
+              <h3>Floral Summer Dress</h3>
+              <p class="product-price">₹1299 <span class="strikethrough">₹1599</span></p>
+              <p class="product-description">Light & breathable cotton blend</p>
+              <div class="product-actions">
+                <a href="product.html" class="btn-details">Details</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 3 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="./images/shop_ph_1.jpeg" alt="Kids Cotton Set">
+              <div class="product-badge badge-bestseller">Best Seller</div>
+            </div>
+            <div class="product-content">
+              <h3>Kids Cotton Set</h3>
+              <p class="product-price">₹599</p>
+              <p class="product-description">Soft & durable cotton blend</p>
+              <div class="product-actions">
+                <a href="product.html" class="btn-details">Details</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 4 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="./images/photo8.jpeg" alt="Formal Trousers">
+            </div>
+            <div class="product-content">
+              <h3>Formal Trousers</h3>
+              <p class="product-price">₹1499</p>
+              <p class="product-description">Classic fit, perfect for office</p>
+              <div class="product-actions">
+                <a href="product.html" class="btn-details">Details</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 5 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="./images/blog_ph_3.jpeg" alt="Women's Blazer">
+              <div class="product-badge">Premium</div>
+            </div>
+            <div class="product-content">
+              <h3>Women's Blazer</h3>
+              <p class="product-price">₹2499</p>
+              <p class="product-description">Professional look, tailored fit</p>
+              <div class="product-actions">
+                <a href="product.html" class="btn-details">Details</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 6 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="./images/shop_ph_2.jpeg" alt="Casual Sneakers">
+              <div class="product-badge badge-limited">Limited</div>
+            </div>
+            <div class="product-content">
+              <h3>Casual Sneakers</h3>
+              <p class="product-price">₹1999</p>
+              <p class="product-description">Comfortable & stylish design</p>
+              <div class="product-actions">
+                <a href="product.html" class="btn-details">Details</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+          <nav class="pagination-nav">
+            <a href="#">
+              <span class="sr-only">Previous</span>
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+              </svg>
+            </a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <span>...</span>
+            <a href="#">8</a>
+            <a href="#">
+              <span class="sr-only">Next</span>
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h5>Showroom</h5>
+          <p>Premium clothing showroom — quality & style.</p>
+        </div>
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <p>📍 Main Road, City</p>
+          <p>☎️ +91-98765-43210</p>
+          <p>✉️ info@showroom.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 Showroom. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Showroom</title>
+
+ <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+
+  <!-- header: simple -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand"><span>Showroom</span></a>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="shop.html" class="cta-shop">Shop Now</a>
+
+        <!-- mobile toggle -->
+        <button class="mobile-btn" id="mobileBtn" aria-label="Open menu">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- slide-in menu (for mobile) -->
+    <div class="side-menu" id="sideMenu" aria-hidden="true">
+      <div class="menu-inner">
+        <button class="close-btn" id="menuClose" aria-label="Close menu">
+          <svg xmlns="http://www.w3.org/2000/svg" style="width:1.5rem; height:1.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+
+        <div class="mobile-links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="blog.html">Lookbook</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+
+          <a href="shop.html" class="mobile-shop">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay" id="backdrop"></div>
+  </header>
+
+  <main class="container">
+    <!-- hero -->
+    <div class="hero-grid">
+      <div class="hero-content fade-in">
+        <h1>Our Story</h1>
+        <p>Showroom started in 2018 — our goal is simple: good quality, up-to-date style and fair prices for everyone. We prefer locally sourced fabrics and are working toward cleaner, sustainable processes.</p>
+
+        <div class="card">
+          <h3>Mission</h3>
+          <p>To provide stylish and comfortable clothing for every customer without compromising on quality.</p>
+        </div>
+
+        <div class="card">
+          <h3>Vision</h3>
+          <p>To become a trusted brand in every city where fashion and value meet.</p>
+        </div>
+      </div>
+
+      <div class="hero-image fade-in">
+        <img src="./images/about_ph_1.jpeg" alt="Our Store">
+        <div class="badge">
+          <p>Est. 2018</p>
+          <p>Quality &amp; Style</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- stats -->
+    <div class="stats-grid">
+      <div class="stat-item">
+        <p class="stat-number">5000+</p>
+        <p class="stat-label">Happy Customers</p>
+      </div>
+
+      <div class="stat-item">
+        <p class="stat-number">1000+</p>
+        <p class="stat-label">Products</p>
+      </div>
+
+      <div class="stat-item">
+        <p class="stat-number">3</p>
+        <p class="stat-label">Store Locations</p>
+      </div>
+
+      <div class="stat-item">
+        <p class="stat-number">24/7</p>
+        <p class="stat-label">Customer Support</p>
+      </div>
+    </div>
+
+    <!-- team -->
+    <section class="team-section">
+      <h2>Meet The Team</h2>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="./images/about_ph_2.jpeg" alt="Amit Kumar">
+          <h4>Amit Kumar</h4>
+          <p class="team-role">Founder</p>
+          <p>10+ years in fashion retail and design. Passionate about bringing quality fashion to everyone.</p>
+        </div>
+
+        <div class="team-card">
+          <img src="./images/about_ph_3.jpeg" alt="Ria Sharma">
+          <h4>Ria Sharma</h4>
+          <p class="team-role">Operations Head</p>
+          <p>Expert in retail operations and customer experience — making every visit better.</p>
+        </div>
+
+        <div class="team-card">
+          <img src="./images/about_ph_4.jpeg" alt="Sameer Patel">
+          <h4>Sameer Patel</h4>
+          <p class="team-role">Customer Success</p>
+          <p>Focused on helping customers and ensuring they leave happy.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h5>Showroom</h5>
+          <p>Premium clothing showroom — quality &amp; style.</p>
+        </div>
+
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Contact</h5>
+          <p>📍 Main Road, City</p>
+          <p>☎️ +91-98765-43210</p>
+          <p>✉️ info@showroom.com</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025 Showroom. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/about.js"></script>
+</body>
+</html>

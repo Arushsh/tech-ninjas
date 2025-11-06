@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lookbook — Showroom</title>
+  <link rel="stylesheet" href="./css/blog.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"><span>Showroom</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="shop.html" class="btn-shop">Shop Now</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-content">
+        <button class="close-menu" id="closeMenu">
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 1.5rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+        <div class="mobile-nav">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="blog.html">Lookbook</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="shop.html" class="mobile-shop-btn">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <div class="hero fade-in">
+      <h1>Lookbook & Fashion Tips</h1>
+      <p>Latest fashion trends, styling tips, and outfit inspirations to help you look your best.</p>
+    </div>
+
+    <!-- Categories -->
+    <div class="categories">
+      <button class="category-btn active">All Posts</button>
+      <button class="category-btn">Style Tips</button>
+      <button class="category-btn">Trends</button>
+      <button class="category-btn">Seasonal</button>
+      <button class="category-btn">Accessories</button>
+    </div>
+
+    <!-- Featured Post -->
+    <article class="featured-post hover-zoom">
+      <div class="featured-grid">
+        <div class="featured-image">
+          <img src="./images/blog_ph_1.jpeg" alt="Fashion Week Highlights">
+        </div>
+        <div class="featured-content">
+          <span class="featured-badge">Featured Post</span>
+          <h2>Fashion Week Highlights: Spring/Summer 2025</h2>
+          <p>Discover the latest trends and must-have pieces from this season's most anticipated fashion shows. From bold colors to innovative designs, we break down what's hot and how to wear it.</p>
+          <div class="author-info">
+            <img src="./images/blog_ph_2.jpeg" alt="Priya Sharma">
+            <div>
+              <p>Priya Sharma</p>
+              <p class="meta">Fashion Editor • 5 min read</p>
+            </div>
+          </div>
+          <a href="#" class="read-more">
+            Read More
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Blog Posts Grid -->
+    <div class="blog-grid">
+      <article class="blog-card hover-zoom">
+        <div class="blog-image">
+          <img src="./images/blog_ph_3.jpeg" alt="How to Style a White Shirt">
+          <div class="blog-badge">
+            <span class="badge">Style Tips</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <h3>How to Style a White Shirt: 10 Modern Ways</h3>
+          <p>From classic office looks to casual weekend outfits, discover versatile styling options for the timeless white shirt.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <img src="./images/blog_ph_4.jpeg" alt="Rahul Verma">
+              <span>Rahul Verma</span>
+            </div>
+            <span class="read-time">3 min read</span>
+          </div>
+          <a href="#" class="blog-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="blog-card hover-zoom">
+        <div class="blog-image">
+          <img src="./images/photo6.jpeg" alt="Summer Dresses Trends">
+          <div class="blog-badge">
+            <span class="badge">Trends</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <h3>Summer Dresses: What's Hot This Season</h3>
+          <p>Light fabrics, vibrant prints, and flattering silhouettes that will keep you stylish and comfortable all summer long.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <img src="./images/blog_ph_5.jpeg" alt="Neha Singh">
+              <span>Neha Singh</span>
+            </div>
+            <span class="read-time">4 min read</span>
+          </div>
+          <a href="#" class="blog-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="blog-card hover-zoom">
+        <div class="blog-image">
+          <img src="./images/blog_ph_6.jpeg" alt="Office Wear Essentials">
+          <div class="blog-badge">
+            <span class="badge">Work Style</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <h3>Office Wear Essentials for 2025</h3>
+          <p>Build a professional wardrobe that combines comfort and style with these must-have pieces for the modern workplace.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <img src="./images/blog_ph_7.jpeg" alt="Amit Kumar">
+              <span>Amit Kumar</span>
+            </div>
+            <span class="read-time">5 min read</span>
+          </div>
+          <a href="#" class="blog-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="blog-card hover-zoom">
+        <div class="blog-image">
+          <img src="./images/blog_ph_8.jpeg" alt="Accessorizing Tips">
+          <div class="blog-badge">
+            <span class="badge">Accessories</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <h3>The Art of Accessorizing: Less is More</h3>
+          <p>Learn how to elevate any outfit with the right accessories, from statement pieces to subtle accents.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <img src="./images/blog_ph_9.jpeg" alt="Meera Patel">
+              <span>Meera Patel</span>
+            </div>
+            <span class="read-time">3 min read</span>
+          </div>
+          <a href="#" class="blog-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="blog-card hover-zoom">
+        <div class="blog-image">
+          <img src="./images/blog_ph_10.jpeg" alt="Sustainable Fashion">
+          <div class="blog-badge">
+            <span class="badge">Sustainable</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <h3>Sustainable Fashion: Making Better Choices</h3>
+          <p>Discover how to build an eco-friendly wardrobe without compromising on style or breaking the bank.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <img src="./images/blog_ph_11.jpeg" alt="Arjun Reddy">
+              <span>Arjun Reddy</span>
+            </div>
+            <span class="read-time">6 min read</span>
+          </div>
+          <a href="#" class="blog-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="blog-card hover-zoom">
+        <div class="blog-image">
+          <img src="./images/blog_ph_12.jpeg" alt="Shopping Guide">
+          <div class="blog-badge">
+            <span class="badge">Shopping</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <h3>Smart Shopping: Getting the Best Value</h3>
+          <p>Expert tips on how to shop smartly, identify quality pieces, and build a versatile wardrobe on any budget.</p>
+          <div class="blog-meta">
+            <div class="blog-author">
+              <img src="./images/blog_ph_13.jpeg" alt="Riya Kapoor">
+              <span>Riya Kapoor</span>
+            </div>
+            <span class="read-time">4 min read</span>
+          </div>
+          <a href="#" class="blog-link">Read more →</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="newsletter">
+      <div class="newsletter-content">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest fashion tips, trends, and exclusive offers delivered straight to your inbox.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h5>Showroom</h5>
+          <p>Premium clothing showroom — quality & style.</p>
+        </div>
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <p>📍 Main Road, City</p>
+          <p>☎️ +91-98765-43210</p>
+          <p>✉️ info@showroom.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 Showroom. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+ <script src="./js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Showroom — Home</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"><span>Showroom</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="offers.html">Offers</a>
+        <a href="blog.html">Lookbook</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="shop.html" class="btn-shop">Shop Now</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-content">
+        <button class="close-menu" id="closeMenu">
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 1.5rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+        <div class="mobile-nav">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="blog.html">Lookbook</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="shop.html" class="mobile-shop-btn">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Nayi Collection 2025</h1>
+          <p>Premium fabrics • Trendy cuts • Best price</p>
+          <div class="hero-buttons">
+            <a href="shop.html" class="btn-primary">Shop New Arrivals</a>
+            <a href="contact.html" class="btn-secondary">Visit Store</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured categories -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="grid">
+          <a href="shop.html#men" class="card">
+            <img src="./images/photo1.jpeg" alt="Men"/>
+            <div class="card-content">
+              <h3>Men</h3>
+              <p>Shirts, T-Shirts, Jeans, Suits</p>
+            </div>
+          </a>
+          <a href="shop.html#women" class="card">
+            <img src="./images/photo2.jpeg" alt="Women"/>
+            <div class="card-content">
+              <h3>Women</h3>
+              <p>Dresses, Sarees, Kurtis</p>
+            </div>
+          </a>
+          <a href="shop.html#kids" class="card">
+            <img src="./images/photo3.jpeg" alt="Kids"/>
+            <div class="card-content">
+              <h3>Kids</h3>
+              <p>Comfort & Cute Styles</p>
+            </div>
+          </a>
+          <a href="shop.html#accessories" class="card">
+            <img src="./images/photo4.jpeg" alt="Accessories"/>
+            <div class="card-content">
+              <h3>Accessories</h3>
+              <p>Bags, Belts, Shoes</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured products -->
+    <section class="bg-white-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" style="margin-bottom: 0;">Featured Products</h2>
+          <a href="shop.html" class="view-all">View All →</a>
+        </div>
+        <div class="grid">
+          <article class="product-card">
+            <img src="./images/photo5.jpeg" alt="Cotton Casual Shirt"/>
+            <div class="product-info">
+              <h3>Cotton Casual Shirt</h3>
+              <p class="product-price">₹899 <span class="original-price">₹1299</span></p>
+              <div class="product-buttons">
+                <a href="product.html" class="btn-view">View</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="./images/photo6.jpeg" alt="Summer Dress"/>
+            <div class="product-info">
+              <h3>Summer Dress</h3>
+              <p class="product-price">₹1199</p>
+              <div class="product-buttons">
+                <a href="product.html" class="btn-view">View</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="./images/photo7.jpeg" alt="Kids Combo Pack"/>
+            <div class="product-info">
+              <h3>Kids Combo Pack</h3>
+              <p class="product-price">₹699</p>
+              <div class="product-buttons">
+                <a href="product.html" class="btn-view">View</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="./images/photo8.jpeg" alt="Formal Trouser"/>
+            <div class="product-info">
+              <h3>Formal Trouser</h3>
+              <p class="product-price">₹1499</p>
+              <div class="product-buttons">
+                <a href="product.html" class="btn-view">View</a>
+                <button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="gradient-section">
+      <div class="container">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="grid">
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h4>Quality Fabrics</h4>
+            <p>Sif premium aur verified fabrics hi hum use karte hain.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💰</div>
+            <h4>Affordable Prices</h4>
+            <p>Best price guarantee aur seasonal offers.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🏪</div>
+            <h4>Store & Online</h4>
+            <p>Aap store aakar try kar sakte hain ya online order kar sakte hain.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h5>Showroom</h5>
+          <p>Premium clothing showroom — quality & style.</p>
+        </div>
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <p>📍 Main Road, City</p>
+          <p>☎️ +91-98765-43210</p>
+          <p>✉️ info@showroom.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 Showroom. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+ <script src="./js/index.js"></script>
+</body>
+</html>
