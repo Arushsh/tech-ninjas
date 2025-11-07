@@ -191,7 +191,7 @@
 
     /* Hero Section */
     .hero {
-      background-image: url('./images/photo9.jpeg');
+      background-image: url('/images/photo9.jpeg');
       background-size: cover;
       background-position: center;
       height: 500px;
